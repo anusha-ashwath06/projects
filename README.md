@@ -11,9 +11,10 @@ Build and evaluate machine learning models for fake news detection.
 Explore the use of LSTM and BERT-based models for improved accuracy.
 Create an ensemble model that combines the strengths of different architectures.
 Provide a robust fake news detection system that can be used as a valuable tool for media literacy.
-Project Structure
-The project is organized as follows:
 
+Project Structure
+
+The project is organized as follows:
 Data Exploration: Explore the dataset to understand its structure and characteristics.
 Data Preprocessing: Clean and preprocess the text data, including tokenization and feature engineering.
 LSTM Model: Implement a Long Short-Term Memory (LSTM) model for fake news detection.
