@@ -15,7 +15,6 @@ Create an ensemble model that combines the strengths of different architectures.
 Provide a robust fake news detection system that can be used as a valuable tool for media literacy.
 
 Project Structure
-
 The project is organized as follows:
 Data Exploration: Explore the dataset to understand its structure and characteristics.
 Data Preprocessing: Clean and preprocess the text data, including tokenization and feature engineering.
@@ -24,22 +23,23 @@ BERT Model: Fine-tune a pre-trained BERT model for text classification.
 Ensemble Model: Create an ensemble model that combines predictions from multiple models.
 Evaluation: Evaluate the models using appropriate metrics and analyze their performance.
 Deployment: If required, deploy the best-performing model for practical use.
+
 Dependencies and Tools
 This project utilizes the following tools and dependencies:
-
 Python 3: The programming language used for the project.
+
 Jupyter Notebook (optional): An interactive development environment for data analysis and machine learning.
 Required Python Libraries: You will need the following Python libraries, which can be installed using pip:
 pandas for data manipulation.
 numpy for numerical operations.
 scikit-learn for machine learning tasks.
 nltk (Natural Language Toolkit) for natural language processing tasks.
-You can install these libraries using the following command:
 
+You can install these libraries using the following command:
 pip install pandas numpy scikit-learn nltk
 Machine Learning Algorithms Used
-The project uses the following machine learning algorithms and techniques:
 
+The project uses the following machine learning algorithms and techniques:
 TF-IDF (Term Frequency-Inverse Document Frequency): Used for text feature extraction to convert text data into numerical form.
 Multinomial Naive Bayes: A classification algorithm for text data often used for spam and fake news detection.
 Logistic Regression: A classification algorithm for binary and multi-class classification tasks.
@@ -54,10 +54,9 @@ Stopwords Removal: A text preprocessing technique to remove common words that do
 Lowercasing: Converting text to lowercase to ensure uniformity.
 Tokenization: Breaking text into words or tokens for analysis.
 Getting Started
+
 To run this project on your local machine, follow these steps:
-
 Clone this repository:
-
 git clone https://github.com/vijaisuria/Fake-News-Detective.git
 Install the necessary dependencies:
 
@@ -65,7 +64,7 @@ Download the dataset from Kaggle and place it in the project directory.
 
 Run the project using your preferred Python IDE or Jupyter Notebook.
 
-Usage
+Usage:
 You can use this project to understand the process of fake news detection using machine learning. Follow the steps in the Jupyter Notebook to:
 
 Load and preprocess the dataset.
@@ -82,8 +81,6 @@ Test your changes thoroughly to ensure they don't introduce issues.
 
 Submit a pull request, describing the changes you've made and their significance.
 
-Acknowledgments
+Acknowledgments:
 We would like to express our gratitude to Kaggle for providing the dataset used in this project.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
